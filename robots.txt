@@ -1,0 +1,81 @@
+# Robots.txt pour Tonio Service - Agence Web Suisse
+# https://www.tonio-service.ch
+
+User-agent: *
+Allow: /
+
+# Pages importantes à indexer en priorité
+Allow: /services
+Allow: /creation-site-web-suisse
+Allow: /referencement-seo-suisse
+Allow: /marketing-digital-suisse
+Allow: /agence-web-lausanne
+Allow: /agence-web-geneve
+Allow: /contact
+Allow: /devis-gratuit
+
+# Bloquer les fichiers et dossiers techniques
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /vite.config.js
+Disallow: /tailwind.config.js
+Disallow: /postcss.config.js
+Disallow: /.env
+Disallow: /.env.local
+Disallow: /.env.example
+
+# Bloquer les fichiers de développement
+Disallow: *.map
+Disallow: /dist/assets/*.map
+
+# Bloquer les pages de test ou temporaires
+Disallow: /test/
+Disallow: /temp/
+Disallow: /admin/
+Disallow: /private/
+
+# Autoriser les images et ressources
+Allow: /images/
+Allow: /assets/
+Allow: /favicon.ico
+Allow: /logo.png
+Allow: /og-image.jpg
+
+# Sitemap
+Sitemap: https://www.tonio-service.ch/sitemap.xml
+
+# Délai entre les requêtes (en secondes) - Respectueux pour les serveurs
+Crawl-delay: 1
+
+# Spécifique pour Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Spécifique pour Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Spécifique pour les réseaux sociaux
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Bloquer les bots indésirables
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

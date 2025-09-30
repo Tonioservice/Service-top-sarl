@@ -1,0 +1,19 @@
+# humanstxt.org/
+# Les humains derrière ce site web
+
+/* ÉQUIPE */
+Développeur Web: Tonio Service
+Contact: support [at] tonio-service.ch
+Twitter: @tonioservice
+Localisation: Renens, Vaud, Suisse
+
+/* REMERCIEMENTS */
+Nom: Équipe Tonio Service
+Nom: Clients fidèles de Suisse romande
+
+/* SITE */
+Dernière mise à jour: 2024/12/19
+Langues: Français
+Doctype: HTML5
+IDE: Visual Studio Code
+Technologies: React, TypeScript, Tailwind CSS, Vite

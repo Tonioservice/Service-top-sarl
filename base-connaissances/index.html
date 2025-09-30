@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="fr"><head>
+    <meta charset="UTF-8">
+    <!-- Viewport optimisé pour mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    
+    <!-- Compatibilité IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Favicon et icônes -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    
+    <!-- Préchargement des polices pour performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <!-- Optimisations Core Web Vitals -->
+    <link rel="preload" href="data:application/octet-stream;base64,aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JwppbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tL2NsaWVudCcKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCcKaW1wb3J0ICcuL2luZGV4LmNzcycKClJlYWN0RE9NLmNyZWF0ZVJvb3QoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Jvb3QnKSEpLnJlbmRlcigKICA8UmVhY3QuU3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1JlYWN0LlN0cmljdE1vZGU+LAop" as="script">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- Support des anciens navigateurs -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    
+    <!-- Manifest PWA -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    
+    <title>Agence Web Suisse | Création Site Internet &amp; Marketing Digital | Tonio Service</title>
+    <meta name="description" content="Agence web suisse spécialisée en création de sites internet, développement web, référencement SEO et marketing digital. Solutions sur mesure pour entreprises en Suisse romande.">
+    <meta name="keywords" content="agence web suisse, création site internet suisse, développement web suisse romande, référencement SEO suisse, marketing digital lausanne, site web professionnel genève, agence digitale vaud, création site vitrine neuchâtel, e-commerce suisse, maintenance site web suisse">
+    <meta name="author" content="Tonio Service - Agence Web Sàrl">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow">
+    <link rel="canonical" href="https://www.tonio-service.ch">
+    
+    <!-- Hreflang pour le SEO multilingue -->
+    <link rel="alternate" hreflang="fr-CH" href="https://www.tonio-service.ch">
+    <link rel="alternate" hreflang="fr" href="https://www.tonio-service.ch">
+    <link rel="alternate" hreflang="x-default" href="https://www.tonio-service.ch">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tonio-service.ch">
+    <meta property="og:title" content="Agence Web Suisse | Création Site Internet &amp; Marketing Digital">
+    <meta property="og:description" content="Agence web suisse spécialisée en création de sites internet, développement web, référencement SEO et marketing digital.">
+    <meta property="og:image" content="https://www.tonio-service.ch/images/og-image-agence-web-suisse.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Tonio Service - Agence Web Suisse - Création de sites internet professionnels">
+    <meta property="og:locale" content="fr_CH">
+    <meta property="og:site_name" content="Tonio Service - Agence Web Suisse">
+    <meta property="article:author" content="Tonio Service">
+    <meta property="article:publisher" content="https://www.facebook.com/tonioservice">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.tonio-service.ch">
+    <meta property="twitter:title" content="Agence Web Suisse | Création Site Internet &amp; Marketing Digital">
+    <meta property="twitter:description" content="Agence web suisse spécialisée en création de sites internet, développement web, référencement SEO et marketing digital.">
+    <meta property="twitter:image" content="https://www.tonio-service.ch/images/twitter-card-agence-web.jpg">
+    <meta property="twitter:image:alt" content="Agence Web Suisse - Tonio Service - Développement et création de sites internet">
+    <meta property="twitter:site" content="@tonioservice">
+    <meta property="twitter:creator" content="@tonioservice">
+    
+    <!-- Core Web Vitals et Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//www.google.com">
+    <link rel="preconnect" href="https://maps.googleapis.com" crossorigin="">
+    
+    <!-- Optimisation ressources critiques -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JwppbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tL2NsaWVudCcKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCcKaW1wb3J0ICcuL2luZGV4LmNzcycKClJlYWN0RE9NLmNyZWF0ZVJvb3QoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Jvb3QnKSEpLnJlbmRlcigKICA8UmVhY3QuU3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1JlYWN0LlN0cmljdE1vZGU+LAop">
+    <style>
+      /* CSS critique inline pour éviter le FOUC */
+      body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+      .loading { display: flex; justify-content: center; align-items: center; height: 100vh; }
+    </style>
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["WebDesignCompany", "LocalBusiness", "Organization"],
+      "name": "Tonio Service - Agence Web Sàrl",
+      "alternateName": "Tonio Service",
+      "description": "Agence web suisse spécialisée en création de sites internet, développement web, référencement SEO et marketing digital",
+      "url": "https://www.tonio-service.ch",
+      "logo": "https://www.tonio-service.ch/logo.png",
+      "image": "https://www.tonio-service.ch/og-image.jpg",
+      "telephone": "+41215520334",
+      "email": "support@tonio-service.ch",
+      "priceRange": "CHF 500 - CHF 10000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rue du Bugnon 42",
+        "addressLocality": "Renens",
+        "addressRegion": "Vaud",
+        "postalCode": "1020",
+        "addressCountry": "CH",
+        "addressCountryName": "Suisse"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "46.5320",
+        "longitude": "6.5820"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Suisse"
+        },
+        {
+          "@type": "State",
+          "name": "Vaud"
+        },
+        {
+          "@type": "City",
+          "name": "Lausanne"
+        },
+        {
+          "@type": "City",
+          "name": "Genève"
+        }
+      ],
+      "serviceType": ["Création de sites web", "Développement web", "Référencement SEO", "Marketing digital", "E-commerce", "Maintenance web"],
+      "foundingDate": "2020",
+      "numberOfEmployees": "5-10",
+      "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+      "currenciesAccepted": "CHF",
+      "openingHours": "Mo-Fr 08:00-18:00",
+      "sameAs": [
+        "https://www.facebook.com/tonioservice",
+        "https://www.linkedin.com/company/tonio-service",
+        "https://www.instagram.com/tonioservice"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services Web",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Création de site web",
+              "description": "Création de sites web professionnels sur mesure"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Référencement SEO",
+              "description": "Optimisation pour les moteurs de recherche"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Marketing Digital",
+              "description": "Stratégies de marketing digital et Google Ads"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "156",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte la création d'un site web en Suisse ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le coût d'un site web en Suisse varie entre CHF 500 pour un site vitrine simple et CHF 10'000 pour un e-commerce complexe. Nous proposons des devis gratuits personnalisés selon vos besoins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps faut-il pour créer un site web ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La création d'un site web prend généralement entre 2 à 8 semaines selon la complexité du projet. Nous vous fournissons un planning détaillé dès le début du projet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Proposez-vous la maintenance de sites web ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, nous proposons des services complets de maintenance incluant les mises à jour, la sécurité, les sauvegardes et le support technique pour assurer le bon fonctionnement de votre site."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin="" src="/assets/index-D9RytXNX.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-BpC6gdgq.css">
+  </head>
+  <body>
+    <div id="root"><nav class="bg-white shadow-lg sticky top-0 z-50"><div class="bg-gray-800 text-white py-2"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex flex-col lg:flex-row justify-between items-center text-sm"><div class="flex flex-col lg:flex-row items-center space-y-2 lg:space-y-0 lg:space-x-6"><div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-4 h-4 text-blue-400 mr-2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Rue du Bugnon 42, 1020 Renens, Suisse</span></div><div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-4 h-4 text-blue-400 mr-2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><a href="tel:+41786606166" class="hover:text-blue-300 transition-colors">+41 78 660 61 66</a></div><div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-4 h-4 text-blue-400 mr-2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><a href="mailto:support@tonio-service.ch" class="hover:text-blue-300 transition-colors">support@tonio-service.ch</a></div></div></div></div></div><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-center items-center h-14 relative"><div class="absolute left-0 flex items-center ml-6"><a href="/" class="flex items-center"><img src="/images/logo-tonio-service-official.webp" alt="Tonio Service - Agence Web Suisse" class="h-8 w-auto mx-4"></a></div><div class="hidden lg:flex items-center space-x-1 justify-center"><div class="relative"><a href="/" class="px-3 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium text-sm">Accueil</a></div><div class="relative"><a href="/about" class="px-3 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium text-sm">À Propos</a></div><div class="relative"><button class="flex items-center px-3 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium text-sm">Nos Services<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-4 h-4 ml-1"><path d="m6 9 6 6 6-6"></path></svg></button></div><div class="relative"><button class="flex items-center px-3 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium text-sm">Autres Services<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-4 h-4 ml-1"><path d="m6 9 6 6 6-6"></path></svg></button></div><div class="relative"><a href="/news" class="px-3 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium text-sm">Actualités</a></div><div class="relative"><a href="/faq" class="px-3 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium text-sm">FAQ</a></div><div class="relative"><a href="/contact" class="px-3 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium text-sm">Contact</a></div></div><div class="absolute right-0 hidden lg:block"><a href="https://tonio-service.ch/facturation" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors text-sm">Espace Client</a></div><div class="absolute right-0 lg:hidden"><button class="p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-6 h-6"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></div></nav><div class="min-h-screen bg-gray-50 overflow-x-hidden"><div class="min-h-screen bg-gray-50"><section class="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white py-20"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center"><h1 class="text-4xl md:text-6xl font-bold mb-6">Base de Connaissances<span class="block text-blue-200 text-2xl md:text-3xl mt-4">Guides, tutoriels et ressources web</span></h1><p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">Accédez à notre <strong>base de connaissances complète</strong> avec des guides, tutoriels et ressources pour optimiser votre <strong>présence web</strong>et tirer le meilleur parti de nos services.</p><div class="flex justify-center"><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book w-5 h-5 mr-2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>Accéder à la base complète <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-2 w-4 h-4"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a></div></div></div></section><section class="py-8 bg-white"><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"><div class="relative"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg><input type="text" placeholder="Rechercher dans la base de connaissances..." class="w-full pl-12 pr-4 py-4 border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg"></div></div></section><section class="py-16 bg-gray-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl font-bold text-gray-900 mb-4">Catégories Principales</h2><p class="text-lg text-gray-600">Explorez nos ressources organisées par thématique</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"><div class="flex items-center mb-4"><div class="p-3 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe w-8 h-8 text-blue-600"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div></div><h3 class="text-xl font-semibold text-gray-900 mb-2">Création de Sites Web</h3><p class="text-gray-600 text-sm mb-4">Guides et tutoriels pour la création de sites internet</p><div class="flex items-center justify-between"><span class="text-sm text-gray-500">15 articles</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"><div class="flex items-center mb-4"><div class="p-3 bg-green-50 rounded-lg group-hover:bg-green-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search w-8 h-8 text-green-600"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></div></div><h3 class="text-xl font-semibold text-gray-900 mb-2">Référencement SEO</h3><p class="text-gray-600 text-sm mb-4">Optimisation pour les moteurs de recherche</p><div class="flex items-center justify-between"><span class="text-sm text-gray-500">12 articles</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"><div class="flex items-center mb-4"><div class="p-3 bg-purple-50 rounded-lg group-hover:bg-purple-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code w-8 h-8 text-purple-600"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div></div><h3 class="text-xl font-semibold text-gray-900 mb-2">Développement Web</h3><p class="text-gray-600 text-sm mb-4">Ressources techniques et bonnes pratiques</p><div class="flex items-center justify-between"><span class="text-sm text-gray-500">18 articles</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"><div class="flex items-center mb-4"><div class="p-3 bg-orange-50 rounded-lg group-hover:bg-orange-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-help-circle w-8 h-8 text-orange-600"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div></div><h3 class="text-xl font-semibold text-gray-900 mb-2">Support Technique</h3><p class="text-gray-600 text-sm mb-4">Solutions aux problèmes courants</p><div class="flex items-center justify-between"><span class="text-sm text-gray-500">25 articles</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div></a></div></div></section><section class="py-16 bg-white"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl font-bold text-gray-900 mb-4">Articles Populaires</h2><p class="text-lg text-gray-600">Les ressources les plus consultées par nos clients</p></div><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow group"><div class="flex items-start justify-between mb-3"><span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">Domaines</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div><h3 class="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">Comment choisir un nom de domaine efficace ?</h3><div class="flex items-center text-sm text-gray-500"><span>5 min</span><span class="mx-2">•</span><span>2.3k vues</span></div></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow group"><div class="flex items-start justify-between mb-3"><span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">Performance</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div><h3 class="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">Optimiser la vitesse de chargement de votre site</h3><div class="flex items-center text-sm text-gray-500"><span>8 min</span><span class="mx-2">•</span><span>1.8k vues</span></div></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow group"><div class="flex items-start justify-between mb-3"><span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">SEO Local</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div><h3 class="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">Guide complet du référencement local en Suisse</h3><div class="flex items-center text-sm text-gray-500"><span>12 min</span><span class="mx-2">•</span><span>1.5k vues</span></div></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow group"><div class="flex items-start justify-between mb-3"><span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">Sécurité</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></div><h3 class="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">Sécuriser votre site WordPress</h3><div class="flex items-center text-sm text-gray-500"><span>10 min</span><span class="mx-2">•</span><span>1.2k vues</span></div></a></div></div></section><section class="py-16 bg-gray-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl font-bold text-gray-900 mb-4">Accès Rapide</h2><p class="text-lg text-gray-600">Ressources spécialisées pour développeurs et utilisateurs avancés</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center group"><div class="flex justify-center mb-4"><div class="p-3 bg-gray-50 rounded-lg group-hover:bg-blue-50 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-5 h-5 text-blue-600"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div></div><h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">Documentation API</h3><p class="text-gray-600 text-sm">Intégration et utilisation de nos APIs</p></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center group"><div class="flex justify-center mb-4"><div class="p-3 bg-gray-50 rounded-lg group-hover:bg-blue-50 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video w-5 h-5 text-green-600"><path d="m22 8-6 4 6 4V8Z"></path><rect width="14" height="12" x="2" y="6" rx="2" ry="2"></rect></svg></div></div><h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">Tutoriels Vidéo</h3><p class="text-gray-600 text-sm">Guides visuels étape par étape</p></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center group"><div class="flex justify-center mb-4"><div class="p-3 bg-gray-50 rounded-lg group-hover:bg-blue-50 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code w-5 h-5 text-purple-600"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div></div><h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">Exemples de Code</h3><p class="text-gray-600 text-sm">Snippets et exemples pratiques</p></a><a href="https://tonio-service.ch/facturation/knowledgebase" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center group"><div class="flex justify-center mb-4"><div class="p-3 bg-gray-50 rounded-lg group-hover:bg-blue-50 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb w-5 h-5 text-yellow-600"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg></div></div><h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">Bonnes Pratiques</h3><p class="text-gray-600 text-sm">Conseils d'experts et recommandations</p></a></div></div></section><section class="py-16 bg-white"><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl font-bold text-gray-900 mb-4">Questions Fréquentes</h2><p class="text-lg text-gray-600">Réponses aux questions les plus courantes</p></div><div class="space-y-6"><div class="bg-gray-50 p-6 rounded-lg"><h3 class="font-semibold text-gray-900 mb-2">Comment accéder à la base de connaissances complète ?</h3><p class="text-gray-600">Cliquez sur le lien "Accéder à la base complète" pour consulter l'ensemble de nos guides, tutoriels et documentation technique sur notre plateforme dédiée.</p></div><div class="bg-gray-50 p-6 rounded-lg"><h3 class="font-semibold text-gray-900 mb-2">Les ressources sont-elles mises à jour régulièrement ?</h3><p class="text-gray-600">Oui, notre équipe met à jour la base de connaissances régulièrement avec de nouveaux articles, guides et tutoriels pour refléter les dernières technologies et meilleures pratiques.</p></div><div class="bg-gray-50 p-6 rounded-lg"><h3 class="font-semibold text-gray-900 mb-2">Puis-je suggérer de nouveaux sujets ?</h3><p class="text-gray-600">Absolument ! Contactez-nous à support@tonio-service.ch pour suggérer de nouveaux sujets ou demander des guides spécifiques. Nous prenons en compte tous les retours de nos clients.</p></div></div></div></section><section class="py-16 bg-blue-600 text-white"><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center"><h2 class="text-3xl font-bold mb-6">Besoin d'Aide Personnalisée ?</h2><p class="text-xl mb-8 text-blue-100">Si vous ne trouvez pas la réponse à votre question, notre équipe d'experts est là pour vous aider</p><div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="/contact" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors">Nous contacter</a><a href="https://tonio-service.ch/facturation/submitticket.php" target="_blank" rel="noopener noreferrer" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">Ouvrir un ticket</a></div></div></section><footer class="bg-gray-800 text-white py-12"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8"><div class="md:col-span-1"><div class="flex items-center mb-4"><img src="/images/logo-tonio-service-official.webp" alt="Tonio Service - Agence Web Sàrl" class="h-12 w-auto"></div><p class="text-gray-300 text-sm leading-relaxed"><strong>Agence web suisse</strong> spécialisée en <strong>création de sites internet</strong>,<strong>référencement SEO</strong> et <strong>marketing digital</strong> en Suisse romande.</p></div><div><h3 class="text-lg font-semibold mb-4">Services</h3><ul class="space-y-2 text-sm"><li><a href="/creation-site-web" class="text-gray-300 hover:text-white transition-colors">Création Site Web</a></li><li><a href="/referencement-seo" class="text-gray-300 hover:text-white transition-colors">Référencement SEO</a></li><li><a href="/marketing-digital" class="text-gray-300 hover:text-white transition-colors">Marketing Digital</a></li><li><a href="/application-mobile" class="text-gray-300 hover:text-white transition-colors">Application Mobile</a></li><li><a href="/hebergement" class="text-gray-300 hover:text-white transition-colors">Hébergement Web</a></li><li><a href="/support-technique" class="text-gray-300 hover:text-white transition-colors">Support Technique</a></li></ul></div><div><h3 class="text-lg font-semibold mb-4">Informations</h3><ul class="space-y-2 text-sm"><li><a href="/charte-rgpd" class="text-gray-300 hover:text-white transition-colors">Charte RGPD</a></li><li><a href="/cgv" class="text-gray-300 hover:text-white transition-colors">CGV</a></li><li><a href="/cgu" class="text-gray-300 hover:text-white transition-colors">CGU</a></li><li><a href="/mentions-legales" class="text-gray-300 hover:text-white transition-colors">Mentions légales</a></li><li><a href="/politique-confidentialite" class="text-gray-300 hover:text-white transition-colors">Politique de Confidentialité</a></li><li><a href="/politique-cookies" class="text-gray-300 hover:text-white transition-colors">Politique de Cookies</a></li></ul></div><div><h3 class="text-lg font-semibold mb-4">Aide / Clients</h3><ul class="space-y-2 text-sm"><li><a href="/contact" class="text-gray-300 hover:text-white transition-colors">Nous contacter</a></li><li><a href="/news" class="text-gray-300 hover:text-white transition-colors">Actualités</a></li><li><a href="/base-connaissances" class="text-gray-300 hover:text-white transition-colors">Base de connaissances</a></li><li><a href="/devenir-partenaire" class="text-gray-300 hover:text-white transition-colors">Devenez notre Partenaire</a></li><li><a href="/about" class="text-gray-300 hover:text-white transition-colors">À propos de nous</a></li><li><a href="/faq" class="text-gray-300 hover:text-white transition-colors">FAQ</a></li></ul></div></div><div class="border-t border-gray-700 pt-8 mb-8"><div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left"><div class="flex items-center justify-center md:justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-5 h-5 text-blue-400 mr-2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg><span class="text-gray-300 text-sm">Rue du Bugnon 42, 1020 Renens, Suisse</span></div><div class="flex items-center justify-center md:justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-5 h-5 text-blue-400 mr-2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><a href="tel:+41786606166" class="text-gray-300 hover:text-white transition-colors text-sm">+41 78 660 61 66</a></div><div class="flex items-center justify-center md:justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-5 h-5 text-blue-400 mr-2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><a href="mailto:support@tonio-service.ch" class="text-gray-300 hover:text-white transition-colors text-sm">support@tonio-service.ch</a></div></div></div><div class="border-t border-gray-700 pt-8 text-center"><div class="flex items-center justify-center mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4 text-blue-400 mr-2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span class="text-gray-400 text-sm">Lun: 14h-19h • Mar: 9h-11h • Mer-Jeu: 9h-19h • Ven: 14h-19h • Sam: Fermé</span></div><p class="text-gray-400 text-sm">CRÉATION D'UN SITE INTERNET FABRIQUÉ AVEC AMOUR EN SUISSE – TOUS DROITS RÉSERVÉS © N° registre commerce: CHE-221.752.845</p></div></div></footer></div><script type="application/ld+json">{"@context":"https://schema.org","@type":["WebDesignCompany","LocalBusiness","Organization"],"name":"Tonio Service - Agence Web Sàrl","alternateName":"Tonio Service","description":"Agence web suisse spécialisée en création de sites internet, développement web, référencement SEO et marketing digital","url":"https://www.tonio-service.ch","logo":"https://www.tonio-service.ch/logo.png","image":"https://www.tonio-service.ch/og-image.jpg","telephone":"+41215520334","email":"support@tonio-service.ch","priceRange":"CHF 500 - CHF 10000","address":{"@type":"PostalAddress","streetAddress":"Rue du Bugnon 42","addressLocality":"Renens","addressRegion":"Vaud","postalCode":"1020","addressCountry":"CH","addressCountryName":"Suisse"},"geo":{"@type":"GeoCoordinates","latitude":"46.5320","longitude":"6.5820"},"areaServed":[{"@type":"Country","name":"Suisse"},{"@type":"State","name":"Vaud"},{"@type":"City","name":"Lausanne"},{"@type":"City","name":"Genève"}],"serviceType":["Création de sites web","Développement web","Référencement SEO","Marketing digital","E-commerce","Maintenance web"],"foundingDate":"2020","numberOfEmployees":"5-10","paymentAccepted":["Cash","Credit Card","Bank Transfer"],"currenciesAccepted":"CHF","openingHours":"Mo-Fr 08:00-18:00","sameAs":["https://www.facebook.com/tonioservice","https://www.linkedin.com/company/tonio-service","https://www.instagram.com/tonioservice"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Services Web","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Création de site web","description":"Création de sites web professionnels sur mesure"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Référencement SEO","description":"Optimisation pour les moteurs de recherche"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Marketing Digital","description":"Stratégies de marketing digital et Google Ads"}}]},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"156","bestRating":"5","worstRating":"1"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien coûte la création d'un site web en Suisse ?","acceptedAnswer":{"@type":"Answer","text":"Le coût d'un site web en Suisse varie entre CHF 500 pour un site vitrine simple et CHF 10'000 pour un e-commerce complexe. Nous proposons des devis gratuits personnalisés selon vos besoins."}},{"@type":"Question","name":"Combien de temps faut-il pour créer un site web ?","acceptedAnswer":{"@type":"Answer","text":"La création d'un site web prend généralement entre 2 à 8 semaines selon la complexité du projet. Nous vous fournissons un planning détaillé dès le début du projet."}},{"@type":"Question","name":"Proposez-vous la maintenance de sites web ?","acceptedAnswer":{"@type":"Answer","text":"Oui, nous proposons des services complets de maintenance incluant les mises à jour, la sécurité, les sauvegardes et le support technique pour assurer le bon fonctionnement de votre site."}}]}</script></div></div>
+  
+</body></html>
